@@ -1,0 +1,170 @@
+/* Estilos para la pantalla principal */  
+
+/*Datos de la imagen de fondo*/
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+    background-image: url("https://www.nextibs.com/wp-content/uploads/2021/12/seguridad-informatica-scaled.jpeg"); /* Cambia la ruta a la imagen de fondo */
+    color: #FFFFFF;
+    background-position: center center; /* Centra la imagen en la pantalla */
+    background-size: cover;  /* Hace que la imagen cubra toda la pantalla */
+    background-attachment: fixed;
+
+
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+  
+  
+}
+
+     .menu {
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Estilos color letras Menu principal*/
+    .menu a,
+    .menu .dropbtn {
+      color: rgb(255, 255, 255);
+      padding: 5px 20px;
+      text-decoration: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .menu a:hover,
+    .menu .dropbtn:hover {
+      background-color: #575757;
+    }
+
+    .dropdown {
+      position: relative;
+      top: -10px;
+      left: 5px;
+    }
+
+    /* Estilos submenu*/
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #0d5ed8;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 2000;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+      
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+      
+    }
+
+    /* Para dar espacio al contenido debajo del menú */
+    .Bienvenida {
+      padding-top: 60px;
+      
+
+    }
+  
+    
+    
+  
+/*Zona de Ingreso Y registro*/
+
+/* Contenedor del formulario */
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Títulos */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Etiquetas */
+label {
+  display: block;
+  margin-top: 10px;
+  color: #0f0f0f;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Botón */
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #0051ff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
